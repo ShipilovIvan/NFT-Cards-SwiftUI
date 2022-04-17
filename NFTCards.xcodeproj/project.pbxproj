@@ -1,0 +1,590 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A271D62F27B5BEED00B134C7 /* NFTCardsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A271D62E27B5BEED00B134C7 /* NFTCardsApp.swift */; };
+		A271D63127B5BEED00B134C7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A271D63027B5BEED00B134C7 /* ContentView.swift */; };
+		A271D63327B5BEEE00B134C7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A271D63227B5BEEE00B134C7 /* Assets.xcassets */; };
+		A271D63627B5BEEE00B134C7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A271D63527B5BEEE00B134C7 /* Preview Assets.xcassets */; };
+		A271D64027B5BEEE00B134C7 /* NFTCardsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A271D63F27B5BEEE00B134C7 /* NFTCardsTests.swift */; };
+		A271D64A27B5BEEE00B134C7 /* NFTCardsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A271D64927B5BEEE00B134C7 /* NFTCardsUITests.swift */; };
+		A271D64C27B5BEEE00B134C7 /* NFTCardsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A271D64B27B5BEEE00B134C7 /* NFTCardsUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A271D63C27B5BEEE00B134C7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A271D62327B5BEED00B134C7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A271D62A27B5BEED00B134C7;
+			remoteInfo = NFTCards;
+		};
+		A271D64627B5BEEE00B134C7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A271D62327B5BEED00B134C7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A271D62A27B5BEED00B134C7;
+			remoteInfo = NFTCards;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A271D62B27B5BEED00B134C7 /* NFTCards.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NFTCards.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A271D62E27B5BEED00B134C7 /* NFTCardsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NFTCardsApp.swift; sourceTree = "<group>"; };
+		A271D63027B5BEED00B134C7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A271D63227B5BEEE00B134C7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A271D63527B5BEEE00B134C7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A271D63B27B5BEEE00B134C7 /* NFTCardsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NFTCardsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A271D63F27B5BEEE00B134C7 /* NFTCardsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NFTCardsTests.swift; sourceTree = "<group>"; };
+		A271D64527B5BEEE00B134C7 /* NFTCardsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NFTCardsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A271D64927B5BEEE00B134C7 /* NFTCardsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NFTCardsUITests.swift; sourceTree = "<group>"; };
+		A271D64B27B5BEEE00B134C7 /* NFTCardsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NFTCardsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A271D62827B5BEED00B134C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A271D63827B5BEEE00B134C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A271D64227B5BEEE00B134C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A271D62227B5BEED00B134C7 = {
+			isa = PBXGroup;
+			children = (
+				A271D62D27B5BEED00B134C7 /* NFTCards */,
+				A271D63E27B5BEEE00B134C7 /* NFTCardsTests */,
+				A271D64827B5BEEE00B134C7 /* NFTCardsUITests */,
+				A271D62C27B5BEED00B134C7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A271D62C27B5BEED00B134C7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A271D62B27B5BEED00B134C7 /* NFTCards.app */,
+				A271D63B27B5BEEE00B134C7 /* NFTCardsTests.xctest */,
+				A271D64527B5BEEE00B134C7 /* NFTCardsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A271D62D27B5BEED00B134C7 /* NFTCards */ = {
+			isa = PBXGroup;
+			children = (
+				A271D62E27B5BEED00B134C7 /* NFTCardsApp.swift */,
+				A271D63027B5BEED00B134C7 /* ContentView.swift */,
+				A271D63227B5BEEE00B134C7 /* Assets.xcassets */,
+				A271D63427B5BEEE00B134C7 /* Preview Content */,
+			);
+			path = NFTCards;
+			sourceTree = "<group>";
+		};
+		A271D63427B5BEEE00B134C7 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A271D63527B5BEEE00B134C7 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A271D63E27B5BEEE00B134C7 /* NFTCardsTests */ = {
+			isa = PBXGroup;
+			children = (
+				A271D63F27B5BEEE00B134C7 /* NFTCardsTests.swift */,
+			);
+			path = NFTCardsTests;
+			sourceTree = "<group>";
+		};
+		A271D64827B5BEEE00B134C7 /* NFTCardsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A271D64927B5BEEE00B134C7 /* NFTCardsUITests.swift */,
+				A271D64B27B5BEEE00B134C7 /* NFTCardsUITestsLaunchTests.swift */,
+			);
+			path = NFTCardsUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A271D62A27B5BEED00B134C7 /* NFTCards */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A271D64F27B5BEEE00B134C7 /* Build configuration list for PBXNativeTarget "NFTCards" */;
+			buildPhases = (
+				A271D62727B5BEED00B134C7 /* Sources */,
+				A271D62827B5BEED00B134C7 /* Frameworks */,
+				A271D62927B5BEED00B134C7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NFTCards;
+			productName = NFTCards;
+			productReference = A271D62B27B5BEED00B134C7 /* NFTCards.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A271D63A27B5BEEE00B134C7 /* NFTCardsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A271D65227B5BEEE00B134C7 /* Build configuration list for PBXNativeTarget "NFTCardsTests" */;
+			buildPhases = (
+				A271D63727B5BEEE00B134C7 /* Sources */,
+				A271D63827B5BEEE00B134C7 /* Frameworks */,
+				A271D63927B5BEEE00B134C7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A271D63D27B5BEEE00B134C7 /* PBXTargetDependency */,
+			);
+			name = NFTCardsTests;
+			productName = NFTCardsTests;
+			productReference = A271D63B27B5BEEE00B134C7 /* NFTCardsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A271D64427B5BEEE00B134C7 /* NFTCardsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A271D65527B5BEEE00B134C7 /* Build configuration list for PBXNativeTarget "NFTCardsUITests" */;
+			buildPhases = (
+				A271D64127B5BEEE00B134C7 /* Sources */,
+				A271D64227B5BEEE00B134C7 /* Frameworks */,
+				A271D64327B5BEEE00B134C7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A271D64727B5BEEE00B134C7 /* PBXTargetDependency */,
+			);
+			name = NFTCardsUITests;
+			productName = NFTCardsUITests;
+			productReference = A271D64527B5BEEE00B134C7 /* NFTCardsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A271D62327B5BEED00B134C7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					A271D62A27B5BEED00B134C7 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					A271D63A27B5BEEE00B134C7 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = A271D62A27B5BEED00B134C7;
+					};
+					A271D64427B5BEEE00B134C7 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = A271D62A27B5BEED00B134C7;
+					};
+				};
+			};
+			buildConfigurationList = A271D62627B5BEED00B134C7 /* Build configuration list for PBXProject "NFTCards" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A271D62227B5BEED00B134C7;
+			productRefGroup = A271D62C27B5BEED00B134C7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A271D62A27B5BEED00B134C7 /* NFTCards */,
+				A271D63A27B5BEEE00B134C7 /* NFTCardsTests */,
+				A271D64427B5BEEE00B134C7 /* NFTCardsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A271D62927B5BEED00B134C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A271D63627B5BEEE00B134C7 /* Preview Assets.xcassets in Resources */,
+				A271D63327B5BEEE00B134C7 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A271D63927B5BEEE00B134C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A271D64327B5BEEE00B134C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A271D62727B5BEED00B134C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A271D63127B5BEED00B134C7 /* ContentView.swift in Sources */,
+				A271D62F27B5BEED00B134C7 /* NFTCardsApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A271D63727B5BEEE00B134C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A271D64027B5BEEE00B134C7 /* NFTCardsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A271D64127B5BEEE00B134C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A271D64C27B5BEEE00B134C7 /* NFTCardsUITestsLaunchTests.swift in Sources */,
+				A271D64A27B5BEEE00B134C7 /* NFTCardsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A271D63D27B5BEEE00B134C7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A271D62A27B5BEED00B134C7 /* NFTCards */;
+			targetProxy = A271D63C27B5BEEE00B134C7 /* PBXContainerItemProxy */;
+		};
+		A271D64727B5BEEE00B134C7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A271D62A27B5BEED00B134C7 /* NFTCards */;
+			targetProxy = A271D64627B5BEEE00B134C7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A271D64D27B5BEEE00B134C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A271D64E27B5BEEE00B134C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A271D65027B5BEEE00B134C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"NFTCards/Preview Content\"";
+				DEVELOPMENT_TEAM = 7F6V9UY778;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = neumorphicHealthAppConcept.NFTCards;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A271D65127B5BEEE00B134C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"NFTCards/Preview Content\"";
+				DEVELOPMENT_TEAM = 7F6V9UY778;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = neumorphicHealthAppConcept.NFTCards;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A271D65327B5BEEE00B134C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7F6V9UY778;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = neumorphicHealthAppConcept.NFTCardsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NFTCards.app/NFTCards";
+			};
+			name = Debug;
+		};
+		A271D65427B5BEEE00B134C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7F6V9UY778;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = neumorphicHealthAppConcept.NFTCardsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NFTCards.app/NFTCards";
+			};
+			name = Release;
+		};
+		A271D65627B5BEEE00B134C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7F6V9UY778;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = neumorphicHealthAppConcept.NFTCardsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NFTCards;
+			};
+			name = Debug;
+		};
+		A271D65727B5BEEE00B134C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7F6V9UY778;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = neumorphicHealthAppConcept.NFTCardsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NFTCards;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A271D62627B5BEED00B134C7 /* Build configuration list for PBXProject "NFTCards" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A271D64D27B5BEEE00B134C7 /* Debug */,
+				A271D64E27B5BEEE00B134C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A271D64F27B5BEEE00B134C7 /* Build configuration list for PBXNativeTarget "NFTCards" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A271D65027B5BEEE00B134C7 /* Debug */,
+				A271D65127B5BEEE00B134C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A271D65227B5BEEE00B134C7 /* Build configuration list for PBXNativeTarget "NFTCardsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A271D65327B5BEEE00B134C7 /* Debug */,
+				A271D65427B5BEEE00B134C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A271D65527B5BEEE00B134C7 /* Build configuration list for PBXNativeTarget "NFTCardsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A271D65627B5BEEE00B134C7 /* Debug */,
+				A271D65727B5BEEE00B134C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A271D62327B5BEED00B134C7 /* Project object */;
+}
